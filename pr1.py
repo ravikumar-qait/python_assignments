@@ -22,10 +22,10 @@ else:
 folder_list = []
 
 for i in range(folder_to_create):
-    folder_name = input("Give name of folder:")
-    folder_path = dir_path +'/'+ folder_name
+   # folder_name = input("Give name of folder:")
+    folder_path = dir_path +'/'+ i
     os.mkdir(folder_path)
-    folder_list.append(folder_name)
+    folder_list.append(i)
 
 
 for i in range(folder_to_create):
@@ -39,14 +39,6 @@ for i in range(folder_to_create):
             y = y+1
 
 
-print("Successfully Moved!")
-
-
-
-
-
-
-
-
-
+print("Successfully Moved!"
+)
 
