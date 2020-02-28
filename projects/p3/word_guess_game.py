@@ -51,5 +51,3 @@ while i < 10:
         break
     for k in display_string:
         print(k,end=" ")
-
-
