@@ -1,4 +1,4 @@
-string_input = input()
+string_input = input(
 my_dict = {'a': 0,'e':0,'i':0,'o':0,'u':0}
 count = 0
 for i in range(len(string_input)):
